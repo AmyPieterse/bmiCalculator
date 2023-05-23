@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(../images/background.jpg);
+background-size: cover;
+}
+
+.container{
+    height:100vh;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+background-color: #0a0e21;
+width: 20rem;
+height:30rem;
+border-radius: 20px;
+color: #ffffff;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.content{
+    margin: 1rem;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+label{
+    font-size: 1.1rem;
+}
+.inputs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-top: .3rem; 
+    margin-bottom: 1.3rem; 
+    height: 2.2rem;
+    width:14rem;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 2rem;
+    gap: 1rem;
+}
+button{
+    background-color: #24d876;
+    font-size: 1rem;
+    width: 6.5rem;
+    height:2.5rem;
+    border-radius: 12px;
+    border: none;
+}
+.invalid{
+    border-color: red;
+}
+@media screen and (max-width:350px) {
+    .form{
+        width: 15rem;
+        height:20rem;
+        }
+    .content{
+        margin: .5rem;
+        }
+    h3{
+        font-size:1.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        }
+    label{
+        font-size: .9rem;
+        }
+    input {
+        margin-top: .2rem; 
+        margin-bottom: 1rem; 
+        height: 2rem;
+        width:12rem;
+        }
+    .buttons{
+        margin-top: 2rem;
+        }
+    button{
+        font-size: .9rem;
+        width: 6rem;
+        height:2rem;
+        }
+}
